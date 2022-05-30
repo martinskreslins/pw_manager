@@ -3729,3 +3729,262 @@ Traceback (most recent call last):
 cryptography.fernet.InvalidToken
 INFO 2022-05-30 09:12:25,183 - de_decrypt() beidz darbību
 INFO 2022-05-30 09:12:25,183 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 13:18:04,913 - # Programma startēta.
+INFO 2022-05-30 13:18:04,913 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 13:18:04,914 - Inicializē config.ini failu
+INFO 2022-05-30 13:18:04,914 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 13:18:04,914 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 13:18:14,614 - gen_key() beidz darbību
+INFO 2022-05-30 13:18:14,614 - Atrod Fernet atslēgu
+INFO 2022-05-30 13:18:14,615 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 13:18:14,716 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 13:18:14,722 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 13:18:14,773 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 13:18:14,775 - Inicializē datubāzi.
+INFO 2022-05-30 13:18:14,775 - Izveido tabulu.
+DEBUG 2022-05-30 13:18:14,775 - Izpilda kursoru
+INFO 2022-05-30 13:18:14,775 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 13:18:14,775 - Kursors iegūts.
+INFO 2022-05-30 13:18:14,775 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 13:18:14,776 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 13:18:14,780 - execute_cursor() beidz darbību
+INFO 2022-05-30 13:18:21,721 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 13:18:21,721 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 13:18:21,722 - Kursors iegūts.
+INFO 2022-05-30 13:18:21,722 - get_cursor() beidz darbību.
+INFO 2022-05-30 13:18:21,724 - view_db() beidz darbību
+INFO 2022-05-30 13:18:27,130 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 13:18:27,131 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 13:18:27,131 - Kursors iegūts.
+INFO 2022-05-30 13:18:27,132 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 13:18:27,132 - Atšifrē padotos datus
+DEBUG 2022-05-30 13:18:27,133 - Atšifrē padotos datus
+DEBUG 2022-05-30 13:18:27,133 - Atšifrē padotos datus
+DEBUG 2022-05-30 13:18:27,134 - Atšifrē padotos datus
+INFO 2022-05-30 13:18:27,134 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 16:10:23,535 - # Programma startēta.
+INFO 2022-05-30 16:10:23,551 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 16:10:23,551 - Inicializē config.ini failu
+INFO 2022-05-30 16:10:23,551 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 16:10:23,551 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 16:10:31,765 - gen_key() beidz darbību
+INFO 2022-05-30 16:10:31,766 - Atrod Fernet atslēgu
+INFO 2022-05-30 16:10:31,766 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 16:10:31,839 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:10:31,844 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 16:10:31,893 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:10:31,895 - Inicializē datubāzi.
+INFO 2022-05-30 16:10:31,895 - Izveido tabulu.
+DEBUG 2022-05-30 16:10:31,895 - Izpilda kursoru
+INFO 2022-05-30 16:10:31,895 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:10:31,896 - Kursors iegūts.
+INFO 2022-05-30 16:10:31,896 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:10:31,896 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 16:10:31,901 - execute_cursor() beidz darbību
+INFO 2022-05-30 16:11:06,968 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 16:11:06,969 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:11:06,969 - Kursors iegūts.
+INFO 2022-05-30 16:11:06,969 - get_cursor() beidz darbību.
+ERROR 2022-05-30 16:11:06,975 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 130, in view_db
+    tree.insert("", tk.END, values=row)
+NameError: name 'tree' is not defined
+INFO 2022-05-30 16:11:06,976 - view_db() beidz darbību
+INFO 2022-05-30 16:11:14,491 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 16:11:14,491 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:11:14,492 - Kursors iegūts.
+INFO 2022-05-30 16:11:14,492 - get_cursor() beidz darbību.
+INFO 2022-05-30 16:11:14,494 - view_db() beidz darbību
+INFO 2022-05-30 16:11:25,966 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 16:11:25,966 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:11:25,967 - Kursors iegūts.
+INFO 2022-05-30 16:11:25,967 - get_cursor() beidz darbību.
+INFO 2022-05-30 16:11:25,969 - view_db() beidz darbību
+DEBUG 2022-05-30 16:12:23,842 - # Programma startēta.
+INFO 2022-05-30 16:12:23,861 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 16:12:23,862 - Inicializē config.ini failu
+INFO 2022-05-30 16:12:23,862 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 16:12:23,862 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 16:12:29,488 - gen_key() beidz darbību
+INFO 2022-05-30 16:12:29,488 - Atrod Fernet atslēgu
+INFO 2022-05-30 16:12:29,488 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 16:12:29,558 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:12:29,575 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 16:12:29,627 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:12:29,629 - Inicializē datubāzi.
+INFO 2022-05-30 16:12:29,629 - Izveido tabulu.
+DEBUG 2022-05-30 16:12:29,629 - Izpilda kursoru
+INFO 2022-05-30 16:12:29,629 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:12:29,630 - Kursors iegūts.
+INFO 2022-05-30 16:12:29,630 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:12:29,630 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 16:12:29,634 - execute_cursor() beidz darbību
+INFO 2022-05-30 16:12:32,461 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:12:32,462 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:12:32,462 - Kursors iegūts.
+INFO 2022-05-30 16:12:32,463 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:12:32,464 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:12:32,464 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:12:32,464 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:12:32,465 - Atšifrē padotos datus
+ERROR 2022-05-30 16:12:32,465 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 152, in view_decrypted_db
+    tree.insert("", tk.END, values=row)
+NameError: name 'tree' is not defined
+INFO 2022-05-30 16:12:32,466 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 16:12:35,975 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 16:12:35,975 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:12:35,976 - Kursors iegūts.
+INFO 2022-05-30 16:12:35,976 - get_cursor() beidz darbību.
+INFO 2022-05-30 16:12:35,977 - view_db() beidz darbību
+INFO 2022-05-30 16:12:48,860 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 16:12:48,860 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:12:48,861 - Kursors iegūts.
+INFO 2022-05-30 16:12:48,861 - get_cursor() beidz darbību.
+INFO 2022-05-30 16:12:48,863 - view_db() beidz darbību
+DEBUG 2022-05-30 16:13:23,960 - # Programma startēta.
+INFO 2022-05-30 16:13:23,979 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 16:13:23,979 - Inicializē config.ini failu
+INFO 2022-05-30 16:13:23,979 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 16:13:23,979 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 16:13:29,998 - gen_key() beidz darbību
+INFO 2022-05-30 16:13:29,999 - Atrod Fernet atslēgu
+INFO 2022-05-30 16:13:29,999 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 16:13:30,072 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:13:30,089 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 16:13:30,136 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:13:30,138 - Inicializē datubāzi.
+INFO 2022-05-30 16:13:30,138 - Izveido tabulu.
+DEBUG 2022-05-30 16:13:30,138 - Izpilda kursoru
+INFO 2022-05-30 16:13:30,138 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:13:30,138 - Kursors iegūts.
+INFO 2022-05-30 16:13:30,139 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:13:30,139 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 16:13:30,143 - execute_cursor() beidz darbību
+INFO 2022-05-30 16:13:32,434 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:13:32,435 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:13:32,435 - Kursors iegūts.
+INFO 2022-05-30 16:13:32,435 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:13:32,436 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:32,437 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:32,437 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:32,437 - Atšifrē padotos datus
+ERROR 2022-05-30 16:13:32,438 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 152, in view_decrypted_db
+    tree.insert("", tk.END, values=row)
+NameError: name 'tree' is not defined
+INFO 2022-05-30 16:13:32,439 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 16:13:36,135 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:13:36,135 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:13:36,136 - Kursors iegūts.
+INFO 2022-05-30 16:13:36,136 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:13:36,137 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:36,137 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:36,138 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:36,138 - Atšifrē padotos datus
+INFO 2022-05-30 16:13:36,139 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 16:13:39,609 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:13:39,610 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:13:39,610 - Kursors iegūts.
+INFO 2022-05-30 16:13:39,610 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:13:39,611 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:39,612 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:39,612 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:13:39,612 - Atšifrē padotos datus
+INFO 2022-05-30 16:13:39,613 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 16:15:14,506 - # Programma startēta.
+INFO 2022-05-30 16:15:14,523 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 16:15:14,523 - Inicializē config.ini failu
+INFO 2022-05-30 16:15:14,523 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 16:15:14,523 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 16:15:20,167 - gen_key() beidz darbību
+INFO 2022-05-30 16:15:20,168 - Atrod Fernet atslēgu
+INFO 2022-05-30 16:15:20,168 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 16:15:20,235 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:15:20,255 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 16:15:20,304 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:15:20,305 - Inicializē datubāzi.
+INFO 2022-05-30 16:15:20,306 - Izveido tabulu.
+DEBUG 2022-05-30 16:15:20,306 - Izpilda kursoru
+INFO 2022-05-30 16:15:20,306 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:15:20,306 - Kursors iegūts.
+INFO 2022-05-30 16:15:20,306 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:15:20,306 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 16:15:20,314 - execute_cursor() beidz darbību
+INFO 2022-05-30 16:15:22,783 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:15:22,783 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:15:22,784 - Kursors iegūts.
+INFO 2022-05-30 16:15:22,784 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:15:22,785 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:15:22,786 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:15:22,786 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:15:22,786 - Atšifrē padotos datus
+ERROR 2022-05-30 16:15:22,787 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 152, in view_decrypted_db
+    tree2.insert("", tk.END, values=row)
+NameError: name 'tree2' is not defined
+INFO 2022-05-30 16:15:22,788 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 16:15:26,235 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:15:26,235 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:15:26,236 - Kursors iegūts.
+INFO 2022-05-30 16:15:26,236 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:15:26,237 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:15:26,237 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:15:26,238 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:15:26,238 - Atšifrē padotos datus
+INFO 2022-05-30 16:15:26,239 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 16:17:59,365 - # Programma startēta.
+INFO 2022-05-30 16:17:59,383 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 16:17:59,383 - Inicializē config.ini failu
+INFO 2022-05-30 16:17:59,383 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 16:17:59,383 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 16:18:03,994 - gen_key() beidz darbību
+INFO 2022-05-30 16:18:03,995 - Atrod Fernet atslēgu
+INFO 2022-05-30 16:18:03,995 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 16:18:04,062 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:18:04,079 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 16:18:04,127 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 16:18:04,129 - Inicializē datubāzi.
+INFO 2022-05-30 16:18:04,129 - Izveido tabulu.
+DEBUG 2022-05-30 16:18:04,129 - Izpilda kursoru
+INFO 2022-05-30 16:18:04,129 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:18:04,129 - Kursors iegūts.
+INFO 2022-05-30 16:18:04,129 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:18:04,129 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 16:18:04,133 - execute_cursor() beidz darbību
+INFO 2022-05-30 16:18:06,454 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:18:06,454 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:18:06,455 - Kursors iegūts.
+INFO 2022-05-30 16:18:06,455 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:18:06,456 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:06,457 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:06,457 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:06,457 - Atšifrē padotos datus
+ERROR 2022-05-30 16:18:06,458 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 152, in view_decrypted_db
+    tree2.insert("", tk.END, values=element_arr)
+NameError: name 'tree2' is not defined
+INFO 2022-05-30 16:18:06,459 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 16:18:09,857 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:18:09,857 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:18:09,858 - Kursors iegūts.
+INFO 2022-05-30 16:18:09,858 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:18:09,859 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:09,859 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:09,860 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:09,860 - Atšifrē padotos datus
+INFO 2022-05-30 16:18:09,861 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 16:18:14,685 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 16:18:14,685 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 16:18:14,686 - Kursors iegūts.
+INFO 2022-05-30 16:18:14,686 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 16:18:14,687 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:14,687 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:14,688 - Atšifrē padotos datus
+DEBUG 2022-05-30 16:18:14,688 - Atšifrē padotos datus
+INFO 2022-05-30 16:18:14,688 - view_decrypted_db() beidz darbību

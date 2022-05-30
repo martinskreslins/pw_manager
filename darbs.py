@@ -1,8 +1,7 @@
 import base64
-import configparser
-from doctest import master
-#from email import iterators
-from hashlib import algorithms_available
+#import configparser
+#from doctest import master
+#from hashlib import algorithms_available
 import mysql.connector
 import logging
 import os.path
@@ -60,7 +59,8 @@ def init_db():
         host="{}".format(databaseconfig["host"]),
         database="{}".format(databaseconfig["database"]),
         user="{}".format(databaseconfig["user"]),
-        passwd="{}".format(databaseconfig["passwd"])
+        passwd="{}".format(databaseconfig["passwd"],
+        autocommit = True)
     )
 # iegust kursoru
 
@@ -117,8 +117,8 @@ def remove_from_db(row_index):
         logger.exception('')
     logger.debug("remove_from__db() beidz darbību.")
 # izprinte datubazi (encrypted)
-
-
+import tkinter as tk
+from tkinter import ttk
 def view_db():
     try:
         logger.info("view_db() Izprintē datubāzes datus.")
@@ -127,12 +127,11 @@ def view_db():
         cursor.execute(query, (masteruser,))
         for row in cursor:
             print(row)
+            tree.insert("", tk.END, values=row)
     except:
         logger.exception('')
     logger.info("view_db() beidz darbību")
 # izprinte datubazi (decrypted)
-
-
 def view_decrypted_db():
     try:
         logger.info(
@@ -150,11 +149,10 @@ def view_decrypted_db():
                 else:
                     element_arr.append(do_decrypt(element))
             print(element_arr)
+            tree2.insert("", tk.END, values=element_arr)
     except:
         logger.exception('')
     logger.info("view_decrypted_db() beidz darbību")
-
-
 # ielogošanās sistēmā
 def gen_key():
     try:
@@ -224,13 +222,47 @@ while (str(user_action) != "x"):
         "Choose an action: v = View data, m = Modify data, x = Exit program:")
     if(str(user_action) == "v"):
         while True:
-            user_action = input(
-                "View encrypted or decrypted? e = encrypted, d = decrypted, xv = exit view option:")
+            
+            user_action = input("View encrypted or decrypted? e = encrypted, d = decrypted, xv = exit view option:")
+
             if(str(user_action) == "e"):
                 view_db()
+                root = tk.Tk()
+                tree = ttk.Treeview(root, column=("id", "site", "username", "password", "comment"), show='headings')
+                tree.column("#1", anchor=tk.CENTER)
+                tree.heading("#1", text="id")
+                tree.column("#2", anchor=tk.CENTER)
+                tree.heading("#2", text="site")
+                tree.column("#3", anchor=tk.CENTER)
+                tree.heading("#3", text="name")
+                tree.column("#4", anchor=tk.CENTER)
+                tree.heading("#4", text="pass")
+                tree.column("#5", anchor=tk.CENTER)
+                tree.heading("#5", text="comment")
+                tree.pack()
+                btn = tk.Button(text="view", command=view_db)
+                btn.pack()
+                root.mainloop()
+                
                 break
             elif(str(user_action) == "d"):
                 view_decrypted_db()
+                root = tk.Tk()
+                tree2 = ttk.Treeview(root, column=("id", "site", "username", "password", "comment"), show='headings')
+                tree2.column("#1", anchor=tk.CENTER)
+                tree2.heading("#1", text="id")
+                tree2.column("#2", anchor=tk.CENTER)
+                tree2.heading("#2", text="site")
+                tree2.column("#3", anchor=tk.CENTER)
+                tree2.heading("#3", text="name")
+                tree2.column("#4", anchor=tk.CENTER)
+                tree2.heading("#4", text="pass")
+                tree2.column("#5", anchor=tk.CENTER)
+                tree2.heading("#5", text="comment")
+                tree2.pack()
+                btn2 = tk.Button(text="view", command=view_decrypted_db)
+                btn2.pack()
+                root.mainloop()
                 break
             elif(str(user_action) == "xv"):
                 print("Exiting view option.")
