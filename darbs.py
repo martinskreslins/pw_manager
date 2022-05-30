@@ -30,7 +30,7 @@ def init_config():
     config_file = ConfigParser()
     if (file_exists == False):
         config_file["DATABASECONFIG"] = {
-            "host": "localhost", "database": "kontu_dati", "user": "admin", "passwd": "admin"}
+            "host": "localhost", "database": "kontu_dati", "user": "enduser", "passwd": "enduser"}
         config_file["KEYCONFIG"] = {"salt": "unset_salt"}
         with open('config.ini', 'w') as conf:
             config_file.write(conf)
@@ -156,10 +156,10 @@ def view_decrypted_db():
 
 
 # ielogošanās sistēmā
-def login_system():
+def gen_key():
     try:
         logger.info(
-            "# login_system() sāk darbību failā")
+            "# gen_key() sāk darbību failā")
         global f_key
         logger.debug(
             "Generē Fernet atslēgu no ievades lauka masterpass")
@@ -175,7 +175,7 @@ def login_system():
         print(f_key)
     except:
         logger.exception('')
-    logger.info("login_system() beidz darbību")
+    logger.info("gen_key() beidz darbību")
 # sifre padotos datus
 
 
@@ -203,7 +203,7 @@ def do_decrypt(data_to_decrypt):
 
 init_config()
 logger.info("Inicializē config.ini failu")
-login_system()
+gen_key()
 print(masteruser + " is master user")
 logger.info("Atrod Fernet atslēgu")
 connection = None

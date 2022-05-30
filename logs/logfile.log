@@ -3090,3 +3090,642 @@ INFO 2022-05-29 20:33:57,585 - Kursors iegūts.
 INFO 2022-05-29 20:33:57,585 - get_cursor() beidz darbību.
 DEBUG 2022-05-29 20:33:57,586 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
 INFO 2022-05-29 20:33:57,590 - execute_cursor() beidz darbību
+DEBUG 2022-05-29 23:18:37,681 - # Programma startēta.
+INFO 2022-05-29 23:18:37,681 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-29 23:18:37,681 - Inicializē config.ini failu
+INFO 2022-05-29 23:18:37,681 - # gen_key() sāk darbību failā
+DEBUG 2022-05-29 23:18:37,682 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-29 23:18:44,091 - gen_key() beidz darbību
+INFO 2022-05-29 23:18:44,092 - Atrod Fernet atslēgu
+INFO 2022-05-29 23:18:44,092 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-29 23:18:44,163 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-29 23:18:44,180 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-29 23:18:44,231 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-29 23:18:44,233 - Inicializē datubāzi.
+INFO 2022-05-29 23:18:44,233 - Izveido tabulu.
+DEBUG 2022-05-29 23:18:44,233 - Izpilda kursoru
+INFO 2022-05-29 23:18:44,233 - get_cursor() Iegūst kursoru
+INFO 2022-05-29 23:18:44,234 - Kursors iegūts.
+INFO 2022-05-29 23:18:44,234 - get_cursor() beidz darbību.
+DEBUG 2022-05-29 23:18:44,234 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-29 23:18:44,272 - execute_cursor() beidz darbību
+DEBUG 2022-05-30 07:36:48,771 - # Programma startēta.
+INFO 2022-05-30 07:36:48,772 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 07:36:48,773 - Inicializē config.ini failu
+INFO 2022-05-30 07:36:48,773 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 07:36:48,773 - Generē Fernet atslēgu no ievades lauka masterpass
+DEBUG 2022-05-30 08:37:49,177 - # Programma startēta.
+INFO 2022-05-30 08:37:49,177 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:37:49,177 - Inicializē config.ini failu
+INFO 2022-05-30 08:37:49,177 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:37:49,177 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:37:57,217 - gen_key() beidz darbību
+INFO 2022-05-30 08:37:57,217 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:37:57,218 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:37:57,321 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:37:57,327 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:37:57,375 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:37:57,377 - Inicializē datubāzi.
+INFO 2022-05-30 08:37:57,377 - Izveido tabulu.
+DEBUG 2022-05-30 08:37:57,377 - Izpilda kursoru
+INFO 2022-05-30 08:37:57,377 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:37:57,378 - Kursors iegūts.
+INFO 2022-05-30 08:37:57,378 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:37:57,378 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:37:57,382 - execute_cursor() beidz darbību
+DEBUG 2022-05-30 08:38:12,685 - Šifrē padotos datus
+DEBUG 2022-05-30 08:38:12,693 - Šifrē padotos datus
+DEBUG 2022-05-30 08:38:12,693 - Šifrē padotos datus
+DEBUG 2022-05-30 08:38:12,693 - Šifrē padotos datus
+DEBUG 2022-05-30 08:38:12,693 - Šifrē padotos datus
+INFO 2022-05-30 08:38:12,694 - insert_into_db() Ievieto datus datubāzē
+DEBUG 2022-05-30 08:38:12,694 - insert_into_db() sāk darbību.
+INFO 2022-05-30 08:38:12,694 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:38:12,694 - Kursors iegūts.
+INFO 2022-05-30 08:38:12,694 - get_cursor() beidz darbību.
+ERROR 2022-05-30 08:38:12,697 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 102, in insert_into_db
+    cursor.commit()
+AttributeError: 'MySQLCursor' object has no attribute 'commit'
+DEBUG 2022-05-30 08:38:12,698 - insert_into_db() beidz darbību.
+INFO 2022-05-30 08:38:37,361 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 08:38:37,361 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:38:37,361 - Kursors iegūts.
+INFO 2022-05-30 08:38:37,362 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:38:37,362 - Šifrē padotos datus
+INFO 2022-05-30 08:38:37,363 - view_db() beidz darbību
+INFO 2022-05-30 08:38:39,306 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 08:38:39,306 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:38:39,307 - Kursors iegūts.
+INFO 2022-05-30 08:38:39,307 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:38:39,307 - Šifrē padotos datus
+INFO 2022-05-30 08:38:39,308 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 08:39:35,524 - # Programma startēta.
+INFO 2022-05-30 08:39:35,524 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:39:35,524 - Inicializē config.ini failu
+INFO 2022-05-30 08:39:35,525 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:39:35,525 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:39:42,693 - gen_key() beidz darbību
+INFO 2022-05-30 08:39:42,693 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:39:42,694 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:39:42,765 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:39:42,775 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:39:42,825 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:39:42,827 - Inicializē datubāzi.
+INFO 2022-05-30 08:39:42,827 - Izveido tabulu.
+DEBUG 2022-05-30 08:39:42,827 - Izpilda kursoru
+INFO 2022-05-30 08:39:42,828 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:39:42,828 - Kursors iegūts.
+INFO 2022-05-30 08:39:42,828 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:39:42,828 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:39:42,832 - execute_cursor() beidz darbību
+DEBUG 2022-05-30 08:39:51,386 - Šifrē padotos datus
+DEBUG 2022-05-30 08:39:51,386 - Šifrē padotos datus
+DEBUG 2022-05-30 08:39:51,387 - Šifrē padotos datus
+DEBUG 2022-05-30 08:39:51,387 - Šifrē padotos datus
+DEBUG 2022-05-30 08:39:51,387 - Šifrē padotos datus
+INFO 2022-05-30 08:39:51,387 - insert_into_db() Ievieto datus datubāzē
+DEBUG 2022-05-30 08:39:51,387 - insert_into_db() sāk darbību.
+INFO 2022-05-30 08:39:51,387 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:39:51,388 - Kursors iegūts.
+INFO 2022-05-30 08:39:51,388 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:39:51,394 - insert_into_db() beidz darbību.
+INFO 2022-05-30 08:39:57,168 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 08:39:57,168 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:39:57,169 - Kursors iegūts.
+INFO 2022-05-30 08:39:57,169 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:39:57,170 - Šifrē padotos datus
+INFO 2022-05-30 08:39:57,171 - view_db() beidz darbību
+INFO 2022-05-30 08:39:59,436 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 08:39:59,436 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:39:59,437 - Kursors iegūts.
+INFO 2022-05-30 08:39:59,437 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:39:59,438 - Šifrē padotos datus
+INFO 2022-05-30 08:39:59,439 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 08:42:56,019 - # Programma startēta.
+INFO 2022-05-30 08:42:56,019 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:42:56,019 - Inicializē config.ini failu
+INFO 2022-05-30 08:42:56,019 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:42:56,019 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:43:00,553 - gen_key() beidz darbību
+INFO 2022-05-30 08:43:00,554 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:43:00,554 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:43:00,625 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:43:00,641 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:43:00,692 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:43:00,694 - Inicializē datubāzi.
+INFO 2022-05-30 08:43:00,694 - Izveido tabulu.
+DEBUG 2022-05-30 08:43:00,694 - Izpilda kursoru
+INFO 2022-05-30 08:43:00,694 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:43:00,695 - Kursors iegūts.
+INFO 2022-05-30 08:43:00,695 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:43:00,695 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:43:00,700 - execute_cursor() beidz darbību
+INFO 2022-05-30 08:43:03,639 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 08:43:03,639 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:43:03,640 - Kursors iegūts.
+INFO 2022-05-30 08:43:03,640 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:43:03,640 - Šifrē padotos datus
+ERROR 2022-05-30 08:43:03,641 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 142, in view_decrypted_db
+    cursor.execute(query, (do_encrypt(masteruser).encode(),))
+AttributeError: 'bytes' object has no attribute 'encode'
+INFO 2022-05-30 08:43:03,641 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 08:43:06,150 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 08:43:06,151 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:43:06,151 - Kursors iegūts.
+INFO 2022-05-30 08:43:06,152 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:43:06,152 - Šifrē padotos datus
+ERROR 2022-05-30 08:43:06,152 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 127, in view_db
+    cursor.execute(query, (do_encrypt(masteruser).encode(),))
+AttributeError: 'bytes' object has no attribute 'encode'
+INFO 2022-05-30 08:43:06,153 - view_db() beidz darbību
+DEBUG 2022-05-30 08:44:06,019 - # Programma startēta.
+INFO 2022-05-30 08:44:06,019 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:44:06,020 - Inicializē config.ini failu
+INFO 2022-05-30 08:44:06,020 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:44:06,020 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:44:11,021 - gen_key() beidz darbību
+INFO 2022-05-30 08:44:11,022 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:44:11,022 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:44:11,089 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:44:11,109 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:44:11,160 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:44:11,162 - Inicializē datubāzi.
+INFO 2022-05-30 08:44:11,162 - Izveido tabulu.
+DEBUG 2022-05-30 08:44:11,163 - Izpilda kursoru
+INFO 2022-05-30 08:44:11,163 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:44:11,163 - Kursors iegūts.
+INFO 2022-05-30 08:44:11,163 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:44:11,163 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:44:11,174 - execute_cursor() beidz darbību
+INFO 2022-05-30 08:44:16,270 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 08:44:16,271 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:44:16,272 - Kursors iegūts.
+INFO 2022-05-30 08:44:16,272 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:44:16,272 - Šifrē padotos datus
+ERROR 2022-05-30 08:44:16,272 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 127, in view_db
+    cursor.execute(query, (do_encrypt(masteruser).encode(),))
+AttributeError: 'bytes' object has no attribute 'encode'
+INFO 2022-05-30 08:44:16,273 - view_db() beidz darbību
+INFO 2022-05-30 08:44:18,510 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 08:44:18,511 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:44:18,511 - Kursors iegūts.
+INFO 2022-05-30 08:44:18,512 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:44:18,512 - Šifrē padotos datus
+ERROR 2022-05-30 08:44:18,512 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 144, in view_decrypted_db
+    cursor.execute(query, (do_encrypt(masteruser).encode(),))
+AttributeError: 'bytes' object has no attribute 'encode'
+INFO 2022-05-30 08:44:18,513 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 08:45:22,860 - # Programma startēta.
+INFO 2022-05-30 08:45:22,860 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:45:22,860 - Inicializē config.ini failu
+INFO 2022-05-30 08:45:22,860 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:45:22,860 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:45:30,915 - gen_key() beidz darbību
+INFO 2022-05-30 08:45:30,915 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:45:30,915 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:45:30,986 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:45:31,002 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:45:31,051 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:45:31,053 - Inicializē datubāzi.
+INFO 2022-05-30 08:45:31,053 - Izveido tabulu.
+DEBUG 2022-05-30 08:45:31,053 - Izpilda kursoru
+INFO 2022-05-30 08:45:31,053 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:45:31,053 - Kursors iegūts.
+INFO 2022-05-30 08:45:31,053 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:45:31,054 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:45:31,057 - execute_cursor() beidz darbību
+INFO 2022-05-30 08:45:34,383 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 08:45:34,383 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:45:34,384 - Kursors iegūts.
+INFO 2022-05-30 08:45:34,384 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:45:34,385 - Šifrē padotos datus
+ERROR 2022-05-30 08:45:34,385 - 
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 142, in view_decrypted_db
+    cursor.execute(query, (do_encrypt(masteruser).encode(),))
+AttributeError: 'bytes' object has no attribute 'encode'
+INFO 2022-05-30 08:45:34,386 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 08:45:37,561 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 08:45:37,561 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:45:37,561 - Kursors iegūts.
+INFO 2022-05-30 08:45:37,562 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:45:37,562 - Šifrē padotos datus
+INFO 2022-05-30 08:45:37,563 - view_db() beidz darbību
+DEBUG 2022-05-30 08:47:09,586 - # Programma startēta.
+INFO 2022-05-30 08:47:09,587 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:47:09,587 - Inicializē config.ini failu
+INFO 2022-05-30 08:47:09,587 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:47:09,587 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:47:14,243 - gen_key() beidz darbību
+INFO 2022-05-30 08:47:14,244 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:47:14,244 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:47:14,314 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:47:14,322 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:47:14,373 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:47:14,375 - Inicializē datubāzi.
+INFO 2022-05-30 08:47:14,375 - Izveido tabulu.
+DEBUG 2022-05-30 08:47:14,375 - Izpilda kursoru
+INFO 2022-05-30 08:47:14,375 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:47:14,375 - Kursors iegūts.
+INFO 2022-05-30 08:47:14,375 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:47:14,376 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:47:14,380 - execute_cursor() beidz darbību
+DEBUG 2022-05-30 08:47:26,841 - Šifrē padotos datus
+DEBUG 2022-05-30 08:47:26,841 - Šifrē padotos datus
+DEBUG 2022-05-30 08:47:26,841 - Šifrē padotos datus
+DEBUG 2022-05-30 08:47:26,842 - Šifrē padotos datus
+DEBUG 2022-05-30 08:47:26,842 - Šifrē padotos datus
+INFO 2022-05-30 08:47:26,842 - insert_into_db() Ievieto datus datubāzē
+DEBUG 2022-05-30 08:47:26,842 - insert_into_db() sāk darbību.
+INFO 2022-05-30 08:47:26,842 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:47:26,843 - Kursors iegūts.
+INFO 2022-05-30 08:47:26,843 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:47:26,844 - insert_into_db() beidz darbību.
+INFO 2022-05-30 08:47:31,637 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 08:47:31,637 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:47:31,639 - Kursors iegūts.
+INFO 2022-05-30 08:47:31,639 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:47:31,639 - Šifrē padotos datus
+INFO 2022-05-30 08:47:31,640 - view_db() beidz darbību
+INFO 2022-05-30 08:47:33,795 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 08:47:33,795 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:47:33,796 - Kursors iegūts.
+INFO 2022-05-30 08:47:33,796 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:47:33,797 - Šifrē padotos datus
+INFO 2022-05-30 08:47:33,798 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 08:48:29,099 - # Programma startēta.
+INFO 2022-05-30 08:48:29,099 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:48:29,099 - Inicializē config.ini failu
+INFO 2022-05-30 08:48:29,099 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:48:29,100 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:48:34,451 - gen_key() beidz darbību
+INFO 2022-05-30 08:48:34,452 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:48:34,452 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:48:34,520 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:48:34,528 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:48:34,577 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:48:34,578 - Inicializē datubāzi.
+INFO 2022-05-30 08:48:34,579 - Izveido tabulu.
+DEBUG 2022-05-30 08:48:34,579 - Izpilda kursoru
+INFO 2022-05-30 08:48:34,579 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:48:34,579 - Kursors iegūts.
+INFO 2022-05-30 08:48:34,579 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:48:34,579 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:48:34,583 - execute_cursor() beidz darbību
+INFO 2022-05-30 08:48:39,031 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 08:48:39,031 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:48:39,032 - Kursors iegūts.
+INFO 2022-05-30 08:48:39,032 - get_cursor() beidz darbību.
+INFO 2022-05-30 08:48:39,033 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 08:48:40,804 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 08:48:40,805 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:48:40,806 - Kursors iegūts.
+INFO 2022-05-30 08:48:40,806 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:48:40,806 - Šifrē padotos datus
+INFO 2022-05-30 08:48:40,807 - view_db() beidz darbību
+DEBUG 2022-05-30 08:55:41,589 - # Programma startēta.
+INFO 2022-05-30 08:55:41,590 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:55:41,590 - Inicializē config.ini failu
+INFO 2022-05-30 08:55:41,590 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:55:41,590 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:55:47,398 - gen_key() beidz darbību
+INFO 2022-05-30 08:55:47,399 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:55:47,399 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:55:47,473 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:55:47,481 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:55:47,530 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:55:47,532 - Inicializē datubāzi.
+INFO 2022-05-30 08:55:47,532 - Izveido tabulu.
+DEBUG 2022-05-30 08:55:47,532 - Izpilda kursoru
+INFO 2022-05-30 08:55:47,533 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:55:47,533 - Kursors iegūts.
+INFO 2022-05-30 08:55:47,533 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:55:47,533 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:55:47,541 - execute_cursor() beidz darbību
+INFO 2022-05-30 08:55:52,326 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+DEBUG 2022-05-30 08:55:52,326 - Šifrē padotos datus
+INFO 2022-05-30 08:55:52,327 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:55:52,328 - Kursors iegūts.
+INFO 2022-05-30 08:55:52,328 - get_cursor() beidz darbību.
+INFO 2022-05-30 08:55:52,330 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 08:57:43,846 - # Programma startēta.
+INFO 2022-05-30 08:57:43,847 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:57:43,847 - Inicializē config.ini failu
+INFO 2022-05-30 08:57:43,848 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:57:43,848 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:57:48,857 - gen_key() beidz darbību
+INFO 2022-05-30 08:57:48,858 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:57:48,858 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:57:48,927 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:57:48,944 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:57:48,992 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:57:48,994 - Inicializē datubāzi.
+INFO 2022-05-30 08:57:48,994 - Izveido tabulu.
+DEBUG 2022-05-30 08:57:48,994 - Izpilda kursoru
+INFO 2022-05-30 08:57:48,994 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:57:48,995 - Kursors iegūts.
+INFO 2022-05-30 08:57:48,995 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:57:48,995 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:57:48,999 - execute_cursor() beidz darbību
+INFO 2022-05-30 08:57:53,088 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+DEBUG 2022-05-30 08:57:53,088 - Šifrē padotos datus
+DEBUG 2022-05-30 08:57:53,089 - Šifrē padotos datus
+INFO 2022-05-30 08:57:53,089 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:57:53,090 - Kursors iegūts.
+INFO 2022-05-30 08:57:53,090 - get_cursor() beidz darbību.
+INFO 2022-05-30 08:57:53,092 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 08:58:42,225 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+DEBUG 2022-05-30 08:58:42,226 - Šifrē padotos datus
+DEBUG 2022-05-30 08:58:42,226 - Šifrē padotos datus
+INFO 2022-05-30 08:58:42,227 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:58:42,228 - Kursors iegūts.
+INFO 2022-05-30 08:58:42,228 - get_cursor() beidz darbību.
+INFO 2022-05-30 08:58:42,229 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 08:58:53,091 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+DEBUG 2022-05-30 08:58:53,091 - Šifrē padotos datus
+DEBUG 2022-05-30 08:58:53,092 - Šifrē padotos datus
+INFO 2022-05-30 08:58:53,093 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:58:53,093 - Kursors iegūts.
+INFO 2022-05-30 08:58:53,094 - get_cursor() beidz darbību.
+INFO 2022-05-30 08:58:53,095 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 08:59:38,380 - # Programma startēta.
+INFO 2022-05-30 08:59:38,380 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 08:59:38,380 - Inicializē config.ini failu
+INFO 2022-05-30 08:59:38,380 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 08:59:38,380 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 08:59:43,924 - gen_key() beidz darbību
+INFO 2022-05-30 08:59:43,925 - Atrod Fernet atslēgu
+INFO 2022-05-30 08:59:43,925 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 08:59:43,993 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:59:44,002 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 08:59:44,049 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 08:59:44,051 - Inicializē datubāzi.
+INFO 2022-05-30 08:59:44,051 - Izveido tabulu.
+DEBUG 2022-05-30 08:59:44,052 - Izpilda kursoru
+INFO 2022-05-30 08:59:44,052 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:59:44,052 - Kursors iegūts.
+INFO 2022-05-30 08:59:44,052 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:59:44,052 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 08:59:44,061 - execute_cursor() beidz darbību
+INFO 2022-05-30 08:59:50,465 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+DEBUG 2022-05-30 08:59:50,465 - Šifrē padotos datus
+DEBUG 2022-05-30 08:59:50,466 - Šifrē padotos datus
+INFO 2022-05-30 08:59:50,467 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 08:59:50,468 - Kursors iegūts.
+INFO 2022-05-30 08:59:50,468 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 08:59:50,468 - Šifrē padotos datus
+INFO 2022-05-30 08:59:50,469 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 09:02:34,320 - # Programma startēta.
+INFO 2022-05-30 09:02:34,320 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 09:02:34,320 - Inicializē config.ini failu
+INFO 2022-05-30 09:02:34,320 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 09:02:34,320 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 09:02:39,477 - gen_key() beidz darbību
+INFO 2022-05-30 09:02:39,478 - Atrod Fernet atslēgu
+INFO 2022-05-30 09:02:39,478 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 09:02:39,546 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 09:02:39,554 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 09:02:39,606 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 09:02:39,608 - Inicializē datubāzi.
+INFO 2022-05-30 09:02:39,608 - Izveido tabulu.
+DEBUG 2022-05-30 09:02:39,608 - Izpilda kursoru
+INFO 2022-05-30 09:02:39,608 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:02:39,609 - Kursors iegūts.
+INFO 2022-05-30 09:02:39,609 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:02:39,609 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 09:02:39,612 - execute_cursor() beidz darbību
+INFO 2022-05-30 09:02:42,414 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+DEBUG 2022-05-30 09:02:42,414 - Šifrē padotos datus
+INFO 2022-05-30 09:02:42,415 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:02:42,416 - Kursors iegūts.
+INFO 2022-05-30 09:02:42,416 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:02:42,416 - Šifrē padotos datus
+INFO 2022-05-30 09:02:42,417 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 09:06:12,831 - # Programma startēta.
+INFO 2022-05-30 09:06:12,831 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 09:06:12,832 - Inicializē config.ini failu
+INFO 2022-05-30 09:06:12,832 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 09:06:12,832 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 09:06:17,878 - gen_key() beidz darbību
+INFO 2022-05-30 09:06:17,878 - Atrod Fernet atslēgu
+INFO 2022-05-30 09:06:17,878 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 09:06:17,946 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 09:06:17,954 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 09:06:18,004 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 09:06:18,006 - Inicializē datubāzi.
+INFO 2022-05-30 09:06:18,007 - Izveido tabulu.
+DEBUG 2022-05-30 09:06:18,007 - Izpilda kursoru
+INFO 2022-05-30 09:06:18,007 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:06:18,007 - Kursors iegūts.
+INFO 2022-05-30 09:06:18,007 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:06:18,008 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 09:06:18,013 - execute_cursor() beidz darbību
+INFO 2022-05-30 09:06:24,553 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+DEBUG 2022-05-30 09:06:24,554 - Šifrē padotos datus
+DEBUG 2022-05-30 09:06:24,555 - Šifrē padotos datus
+INFO 2022-05-30 09:06:24,555 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:06:24,556 - Kursors iegūts.
+INFO 2022-05-30 09:06:24,556 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:06:24,557 - Šifrē padotos datus
+INFO 2022-05-30 09:06:24,558 - view_decrypted_db() beidz darbību
+DEBUG 2022-05-30 09:07:39,059 - Šifrē padotos datus
+DEBUG 2022-05-30 09:07:39,060 - Šifrē padotos datus
+DEBUG 2022-05-30 09:07:39,060 - Šifrē padotos datus
+DEBUG 2022-05-30 09:07:39,060 - Šifrē padotos datus
+DEBUG 2022-05-30 09:07:39,060 - Šifrē padotos datus
+INFO 2022-05-30 09:07:39,060 - insert_into_db() Ievieto datus datubāzē
+DEBUG 2022-05-30 09:07:39,061 - insert_into_db() sāk darbību.
+INFO 2022-05-30 09:07:39,061 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:07:39,061 - Kursors iegūts.
+INFO 2022-05-30 09:07:39,061 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:07:39,063 - insert_into_db() beidz darbību.
+DEBUG 2022-05-30 09:08:14,549 - Šifrē padotos datus
+DEBUG 2022-05-30 09:08:14,550 - Šifrē padotos datus
+DEBUG 2022-05-30 09:08:14,550 - Šifrē padotos datus
+DEBUG 2022-05-30 09:08:14,550 - Šifrē padotos datus
+DEBUG 2022-05-30 09:08:14,550 - Šifrē padotos datus
+INFO 2022-05-30 09:08:14,550 - insert_into_db() Ievieto datus datubāzē
+DEBUG 2022-05-30 09:08:14,551 - insert_into_db() sāk darbību.
+INFO 2022-05-30 09:08:14,551 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:08:14,551 - Kursors iegūts.
+INFO 2022-05-30 09:08:14,551 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:08:14,553 - insert_into_db() beidz darbību.
+DEBUG 2022-05-30 09:11:25,757 - # Programma startēta.
+INFO 2022-05-30 09:11:25,757 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 09:11:25,757 - Inicializē config.ini failu
+INFO 2022-05-30 09:11:25,757 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 09:11:25,757 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 09:11:31,206 - gen_key() beidz darbību
+INFO 2022-05-30 09:11:31,206 - Atrod Fernet atslēgu
+INFO 2022-05-30 09:11:31,206 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 09:11:31,272 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 09:11:31,285 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 09:11:31,334 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 09:11:31,336 - Inicializē datubāzi.
+INFO 2022-05-30 09:11:31,336 - Izveido tabulu.
+DEBUG 2022-05-30 09:11:31,336 - Izpilda kursoru
+INFO 2022-05-30 09:11:31,336 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:11:31,336 - Kursors iegūts.
+INFO 2022-05-30 09:11:31,336 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:11:31,337 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 09:11:31,340 - execute_cursor() beidz darbību
+DEBUG 2022-05-30 09:11:41,618 - Šifrē padotos datus
+DEBUG 2022-05-30 09:11:41,619 - Šifrē padotos datus
+DEBUG 2022-05-30 09:11:41,619 - Šifrē padotos datus
+DEBUG 2022-05-30 09:11:41,619 - Šifrē padotos datus
+INFO 2022-05-30 09:11:41,619 - insert_into_db() Ievieto datus datubāzē
+DEBUG 2022-05-30 09:11:41,620 - insert_into_db() sāk darbību.
+INFO 2022-05-30 09:11:41,620 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:11:41,620 - Kursors iegūts.
+INFO 2022-05-30 09:11:41,620 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:11:41,622 - insert_into_db() beidz darbību.
+INFO 2022-05-30 09:11:48,134 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 09:11:48,134 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:11:48,135 - Kursors iegūts.
+INFO 2022-05-30 09:11:48,135 - get_cursor() beidz darbību.
+INFO 2022-05-30 09:11:48,137 - view_db() beidz darbību
+INFO 2022-05-30 09:11:50,527 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 09:11:50,527 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:11:50,528 - Kursors iegūts.
+INFO 2022-05-30 09:11:50,528 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:11:50,529 - Atšifrē padotos datus
+DEBUG 2022-05-30 09:11:50,543 - Atšifrē padotos datus
+DEBUG 2022-05-30 09:11:50,543 - Atšifrē padotos datus
+DEBUG 2022-05-30 09:11:50,543 - Atšifrē padotos datus
+INFO 2022-05-30 09:11:50,544 - view_decrypted_db() beidz darbību
+INFO 2022-05-30 09:12:10,142 - # Programma beidzas
+DEBUG 2022-05-30 09:12:14,945 - # Programma startēta.
+INFO 2022-05-30 09:12:14,945 - #init_config() Izveido konfiguracijas failu, ja tāda nav.
+INFO 2022-05-30 09:12:14,946 - Inicializē config.ini failu
+INFO 2022-05-30 09:12:14,946 - # gen_key() sāk darbību failā
+DEBUG 2022-05-30 09:12:14,946 - Generē Fernet atslēgu no ievades lauka masterpass
+INFO 2022-05-30 09:12:19,759 - gen_key() beidz darbību
+INFO 2022-05-30 09:12:19,760 - Atrod Fernet atslēgu
+INFO 2022-05-30 09:12:19,760 - init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.
+DEBUG 2022-05-30 09:12:19,843 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 09:12:19,848 - init_db() Izveido datu bāzi pēc config.ini datiem
+DEBUG 2022-05-30 09:12:19,910 - new_auth_plugin: caching_sha2_password
+INFO 2022-05-30 09:12:19,912 - Inicializē datubāzi.
+INFO 2022-05-30 09:12:19,912 - Izveido tabulu.
+DEBUG 2022-05-30 09:12:19,912 - Izpilda kursoru
+INFO 2022-05-30 09:12:19,912 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:12:19,913 - Kursors iegūts.
+INFO 2022-05-30 09:12:19,913 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:12:19,913 - Kursors mēģina izpildīt CREATE TABLE IF NOT EXISTS usernms_n_passwds (data_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, row_owner TEXT, site TEXT, usernm TEXT, passwd TEXT, comment TEXT)
+INFO 2022-05-30 09:12:19,916 - execute_cursor() beidz darbību
+INFO 2022-05-30 09:12:22,902 - view_db() Izprintē datubāzes datus.
+INFO 2022-05-30 09:12:22,902 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:12:22,903 - Kursors iegūts.
+INFO 2022-05-30 09:12:22,903 - get_cursor() beidz darbību.
+INFO 2022-05-30 09:12:22,905 - view_db() beidz darbību
+INFO 2022-05-30 09:12:25,144 - view_decrypted_db() Atšifrē datubāzes datus un izprintē tos
+INFO 2022-05-30 09:12:25,144 - get_cursor() Iegūst kursoru
+INFO 2022-05-30 09:12:25,145 - Kursors iegūts.
+INFO 2022-05-30 09:12:25,145 - get_cursor() beidz darbību.
+DEBUG 2022-05-30 09:12:25,146 - Atšifrē padotos datus
+ERROR 2022-05-30 09:12:25,146 - 
+Traceback (most recent call last):
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 120, in _verify_signature
+    h.verify(data[-32:])
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\hazmat\primitives\hmac.py", line 69, in verify
+    ctx.verify(signature)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\hazmat\backends\openssl\hmac.py", line 76, in verify
+    raise InvalidSignature("Signature did not match digest.")
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 196, in do_decrypt
+    decrypted_data = f_key.decrypt(
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 81, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 138, in _decrypt_data
+    self._verify_signature(data)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 122, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+INFO 2022-05-30 09:12:25,180 - de_decrypt() beidz darbību
+DEBUG 2022-05-30 09:12:25,180 - Atšifrē padotos datus
+ERROR 2022-05-30 09:12:25,180 - 
+Traceback (most recent call last):
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 120, in _verify_signature
+    h.verify(data[-32:])
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\hazmat\primitives\hmac.py", line 69, in verify
+    ctx.verify(signature)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\hazmat\backends\openssl\hmac.py", line 76, in verify
+    raise InvalidSignature("Signature did not match digest.")
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 196, in do_decrypt
+    decrypted_data = f_key.decrypt(
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 81, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 138, in _decrypt_data
+    self._verify_signature(data)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 122, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+INFO 2022-05-30 09:12:25,181 - de_decrypt() beidz darbību
+DEBUG 2022-05-30 09:12:25,181 - Atšifrē padotos datus
+ERROR 2022-05-30 09:12:25,181 - 
+Traceback (most recent call last):
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 120, in _verify_signature
+    h.verify(data[-32:])
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\hazmat\primitives\hmac.py", line 69, in verify
+    ctx.verify(signature)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\hazmat\backends\openssl\hmac.py", line 76, in verify
+    raise InvalidSignature("Signature did not match digest.")
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 196, in do_decrypt
+    decrypted_data = f_key.decrypt(
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 81, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 138, in _decrypt_data
+    self._verify_signature(data)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 122, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+INFO 2022-05-30 09:12:25,182 - de_decrypt() beidz darbību
+DEBUG 2022-05-30 09:12:25,182 - Atšifrē padotos datus
+ERROR 2022-05-30 09:12:25,182 - 
+Traceback (most recent call last):
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 120, in _verify_signature
+    h.verify(data[-32:])
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\hazmat\primitives\hmac.py", line 69, in verify
+    ctx.verify(signature)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\hazmat\backends\openssl\hmac.py", line 76, in verify
+    raise InvalidSignature("Signature did not match digest.")
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\marti\Desktop\pw_manager-master\darbs.py", line 196, in do_decrypt
+    decrypted_data = f_key.decrypt(
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 81, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 138, in _decrypt_data
+    self._verify_signature(data)
+  File "C:\Users\marti\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cryptography\fernet.py", line 122, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+INFO 2022-05-30 09:12:25,183 - de_decrypt() beidz darbību
+INFO 2022-05-30 09:12:25,183 - view_decrypted_db() beidz darbību
