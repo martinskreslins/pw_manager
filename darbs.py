@@ -7,8 +7,7 @@ import logging
 import os.path
 from cryptography.fernet import Fernet
 from configparser import ConfigParser
-from mysql.connector import Error
-from os.path import exists
+#from os.path import exists
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
@@ -117,8 +116,6 @@ def remove_from_db(row_index):
         logger.exception('')
     logger.debug("remove_from__db() beidz darbību.")
 # izprinte datubazi (encrypted)
-import tkinter as tk
-from tkinter import ttk
 def view_db():
     try:
         logger.info("view_db() Izprintē datubāzes datus.")
@@ -127,7 +124,6 @@ def view_db():
         cursor.execute(query, (masteruser,))
         for row in cursor:
             print(row)
-            tree.insert("", tk.END, values=row)
     except:
         logger.exception('')
     logger.info("view_db() beidz darbību")
@@ -149,7 +145,6 @@ def view_decrypted_db():
                 else:
                     element_arr.append(do_decrypt(element))
             print(element_arr)
-            tree2.insert("", tk.END, values=element_arr)
     except:
         logger.exception('')
     logger.info("view_decrypted_db() beidz darbību")
@@ -170,7 +165,6 @@ def gen_key():
                          length=32, salt=curr_salt, iterations=39000)
         key = base64.urlsafe_b64encode(kdf.derive(masterpass_in_bytes))
         f_key = Fernet(key)
-        print(f_key)
     except:
         logger.exception('')
     logger.info("gen_key() beidz darbību")
@@ -227,42 +221,9 @@ while (str(user_action) != "x"):
 
             if(str(user_action) == "e"):
                 view_db()
-                root = tk.Tk()
-                tree = ttk.Treeview(root, column=("id", "site", "username", "password", "comment"), show='headings')
-                tree.column("#1", anchor=tk.CENTER)
-                tree.heading("#1", text="id")
-                tree.column("#2", anchor=tk.CENTER)
-                tree.heading("#2", text="site")
-                tree.column("#3", anchor=tk.CENTER)
-                tree.heading("#3", text="name")
-                tree.column("#4", anchor=tk.CENTER)
-                tree.heading("#4", text="pass")
-                tree.column("#5", anchor=tk.CENTER)
-                tree.heading("#5", text="comment")
-                tree.pack()
-                btn = tk.Button(text="view", command=view_db)
-                btn.pack()
-                root.mainloop()
-                
                 break
             elif(str(user_action) == "d"):
                 view_decrypted_db()
-                root = tk.Tk()
-                tree2 = ttk.Treeview(root, column=("id", "site", "username", "password", "comment"), show='headings')
-                tree2.column("#1", anchor=tk.CENTER)
-                tree2.heading("#1", text="id")
-                tree2.column("#2", anchor=tk.CENTER)
-                tree2.heading("#2", text="site")
-                tree2.column("#3", anchor=tk.CENTER)
-                tree2.heading("#3", text="name")
-                tree2.column("#4", anchor=tk.CENTER)
-                tree2.heading("#4", text="pass")
-                tree2.column("#5", anchor=tk.CENTER)
-                tree2.heading("#5", text="comment")
-                tree2.pack()
-                btn2 = tk.Button(text="view", command=view_decrypted_db)
-                btn2.pack()
-                root.mainloop()
                 break
             elif(str(user_action) == "xv"):
                 print("Exiting view option.")
