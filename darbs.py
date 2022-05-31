@@ -1,16 +1,11 @@
 import base64
-#import configparser
-#from doctest import master
-#from hashlib import algorithms_available
 import mysql.connector
 import logging
 import os.path
 from cryptography.fernet import Fernet
 from configparser import ConfigParser
-#from os.path import exists
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-
 
 logging_format_string = "%(levelname)s %(asctime)s - %(message)s"
 logging.basicConfig(filename=".\\logs\\logfile.log", level=logging.DEBUG,
@@ -18,9 +13,8 @@ logging.basicConfig(filename=".\\logs\\logfile.log", level=logging.DEBUG,
 logger = logging.getLogger()
 
 logger.debug("# Programma startēta.")
+
 # Izveido konfiguracijas failu ja tāda nav.
-
-
 def init_config():
     logger.info("#init_config() Izveido konfiguracijas failu, ja tāda nav.")
     file_exists = os.path.exists('config.ini')
@@ -32,9 +26,8 @@ def init_config():
         config_file["KEYCONFIG"] = {"salt": "unset_salt"}
         with open('config.ini', 'w') as conf:
             config_file.write(conf)
+
 # izveido datubazi, lai ar kursoru varetu izvedot sql pieprasijumu
-
-
 def init_db_template():
     logger.info(
         "init_db_template() Izveido datu bāzes mainīgo, lai varētu veikt sql pieprasījumus.")
@@ -46,9 +39,8 @@ def init_db_template():
     cursor = connection.cursor()
     cursor.execute("CREATE DATABASE IF NOT EXISTS {}".format(
         databaseconfig["database"]))
+
 # izveido datubazi lietosanai
-
-
 def init_db():
     logger.info("init_db() Izveido datu bāzi pēc config.ini datiem")
     config_file.read('config.ini')
@@ -61,9 +53,8 @@ def init_db():
         passwd="{}".format(databaseconfig["passwd"],
         autocommit = True)
     )
+
 # iegust kursoru
-
-
 def get_cursor():
     logger.info("get_cursor() Iegūst kursoru")
     global connection
@@ -77,9 +68,8 @@ def get_cursor():
         connection.commit()
     logger.info("get_cursor() beidz darbību.")
     return connection.cursor()
+
 # veic sql pieprasijumus
-
-
 def execute_cursor(query):
     try:
         logger.debug("Izpilda kursoru")
@@ -89,9 +79,8 @@ def execute_cursor(query):
     except:
         logger.exception('')
     logger.info("execute_cursor() beidz darbību")
+
 # ievieto datus datubaze
-
-
 def insert_into_db(query, values):
     try:
         logger.info("insert_into_db() Ievieto datus datubāzē")
@@ -101,9 +90,8 @@ def insert_into_db(query, values):
     except:
         logger.exception('')
     logger.debug("insert_into_db() beidz darbību.")
+
 # izdzes datus no datubazes
-
-
 def remove_from_db(row_index):
     try:
         logger.info("remove_from__db() Izdzēš datus no datu bāzes")
@@ -115,6 +103,7 @@ def remove_from_db(row_index):
     except:
         logger.exception('')
     logger.debug("remove_from__db() beidz darbību.")
+
 # izprinte datubazi (encrypted)
 def view_db():
     try:
@@ -127,6 +116,7 @@ def view_db():
     except:
         logger.exception('')
     logger.info("view_db() beidz darbību")
+
 # izprinte datubazi (decrypted)
 def view_decrypted_db():
     try:
@@ -148,7 +138,8 @@ def view_decrypted_db():
     except:
         logger.exception('')
     logger.info("view_decrypted_db() beidz darbību")
-# ielogošanās sistēmā
+
+#atslēgas iegūšana
 def gen_key():
     try:
         logger.info(
@@ -168,9 +159,8 @@ def gen_key():
     except:
         logger.exception('')
     logger.info("gen_key() beidz darbību")
+
 # sifre padotos datus
-
-
 def do_encrypt(data_to_encrypt):
     try:
         logger.debug("Šifrē padotos datus")
@@ -179,9 +169,8 @@ def do_encrypt(data_to_encrypt):
     except:
         logger.exception('')
     logger.info("do_encrypt() beidz darbību")
+
 # atsifre padotos datus
-
-
 def do_decrypt(data_to_decrypt):
     try:
         logger.debug("Atšifrē padotos datus")
@@ -192,16 +181,14 @@ def do_decrypt(data_to_decrypt):
         logger.exception('')
     logger.info("de_decrypt() beidz darbību")
 
-
+#PROGRAMMAS CIKLS
 init_config()
 logger.info("Inicializē config.ini failu")
 gen_key()
-print(masteruser + " is master user")
+print("Logged in as ", masteruser)
 logger.info("Atrod Fernet atslēgu")
 connection = None
 connected = False
-
-
 init_db_template()
 init_db()
 logger.info("Inicializē datubāzi.")
